@@ -183,10 +183,10 @@ class DiskDict(object):
                     yield deserializer(b64decode(b64_val))
     
     def keys(self):
-        return [k for k in self.iterkeys()]
+        return [k for k in self.keys()]
     
     def values(self):
-        return [v for v in self.itervalues()]
+        return [v for v in self.values()]
     
     def items(self):
-        return [p for p in self.iteritems()]
+        return [p for p in self.items()]

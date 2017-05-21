@@ -1,1 +1,1 @@
-from disk_dict import DiskDict
+from .disk_dict import DiskDict
